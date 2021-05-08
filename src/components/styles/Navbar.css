@@ -6,30 +6,44 @@
   height: 30px;
   background-color: #845ec2;
 }
+
 #nav-ul {
   list-style: none;
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #nav-ul li {
+  display: table;
   float: left;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 3px;
-  margin: 0 1px;
+  width: 120px;
   height: 100%;
   font-family: "Roboto", sans-serif;
 }
+
 #nav-ul li:hover {
   cursor: pointer;
   background-color: #b39cd0;
 }
+
 #nav-ul li a {
   text-decoration: none;
-  color: rgb(254, 255, 255);
+  color: #feffff;
   font-size: 1.1rem;
   font-weight: 500;
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
 }
+/*# sourceMappingURL=navbar.css.map */
