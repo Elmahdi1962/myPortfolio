@@ -1,0 +1,9 @@
+main {
+  height: calc(100vh - 30px) !important;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  user-select: none;
+}
