@@ -1,16 +1,28 @@
 #projects-section {
   width: 100vw;
   height: 100%;
-  background-color: blue;
+  background-color: #4a4453;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
+  padding: 0;
 }
 
 #projects-section div {
   width: 644px;
-  height: 500px;
+  height: 100%;
   margin: auto;
-  background-color: white;
+  background-color: #625b6b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=Projects.css.map */

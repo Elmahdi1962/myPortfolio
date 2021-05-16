@@ -37,7 +37,7 @@ header {
         width: 0;
         height: 2px;
         background-color: #00c9a5;
-        transition: width 0.3s ease !important;
+        transition: width 0.3s ease-out !important;
       }
       &:hover {
         &::after {
