@@ -1,0 +1,22 @@
+export const projects = [
+    {
+        "title":"test",
+        "imgUrl":"#",
+        "link":"#"
+    },
+    {
+        "title":"test1",
+        "imgUrl":"#",
+        "link":"#"
+    },
+    {
+        "title":"test2",
+        "imgUrl":"#",
+        "link":"#"
+    },
+    {
+        "title":"test3",
+        "imgUrl":"#",
+        "link":"#"
+    }
+];

@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-#projects-section div {
+#projects-section #projects-container {
   width: 644px;
   height: 100%;
   margin: auto;
@@ -18,11 +18,23 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+#projects-section #projects-container .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+  height: 250px;
+}
+
+#projects-section #projects-container .projects h5 {
+  text-align: center;
 }
 /*# sourceMappingURL=Projects.css.map */

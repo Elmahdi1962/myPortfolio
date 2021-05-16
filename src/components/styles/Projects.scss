@@ -4,14 +4,23 @@
   background-color: #4a4453;
   flex: 0 0 auto;
   padding: 0;
-  div {
+  #projects-container {
     width: 644px;
     height: 100%;
     margin: auto;
     background-color: #625b6b;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    .projects {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      margin: auto;
+      margin-top: 10px;
+      height: 250px;
+      h5 {
+        text-align: center;
+      }
+    }
   }
 }
