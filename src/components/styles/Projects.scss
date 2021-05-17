@@ -25,13 +25,19 @@
       margin-bottom: 10px;
       height: 230px;
       background-color: #7a7483;
+      justify-content: space-evenly;
       a {
         text-decoration: none;
         color: white;
       }
       h5 {
+        margin-top: 5px;
         text-align: center;
         color: white;
+      }
+      img {
+        display: block;
+        width: 200px;
       }
     }
   }

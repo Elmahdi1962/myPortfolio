@@ -11,7 +11,7 @@ function Projects() {
                     return(
                         <div className="projects" key={project.title}>
                             <img src={project.imgUrl}  />
-                            <h5><a href={project.link}>{project.title}</a></h5>
+                            <h5><a href={project.link} target="_blank">{project.title}</a></h5>
                         </div>
                     )
                 })}

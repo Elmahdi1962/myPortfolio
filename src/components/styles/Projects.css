@@ -42,6 +42,9 @@
   margin-bottom: 10px;
   height: 230px;
   background-color: #7a7483;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #projects-section #projects-container .projects a {
@@ -50,7 +53,13 @@
 }
 
 #projects-section #projects-container .projects h5 {
+  margin-top: 5px;
   text-align: center;
   color: white;
+}
+
+#projects-section #projects-container .projects img {
+  display: block;
+  width: 200px;
 }
 /*# sourceMappingURL=Projects.css.map */
