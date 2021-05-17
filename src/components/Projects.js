@@ -9,8 +9,8 @@ function Projects() {
             <div id="projects-container">
                 {projects.map(project=>{
                     return(
-                        <div className="projects">
-                            <img src={project.imgUrl} />
+                        <div className="projects" key={project.title}>
+                            <img src={project.imgUrl}  />
                             <h5><a href={project.link}>{project.title}</a></h5>
                         </div>
                     )

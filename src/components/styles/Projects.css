@@ -16,8 +16,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow-y: scroll;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding-top: 10px;
 }
 
 #projects-section #projects-container .projects {
@@ -31,10 +39,18 @@
   width: 200px;
   margin: auto;
   margin-top: 10px;
-  height: 250px;
+  margin-bottom: 10px;
+  height: 230px;
+  background-color: #7a7483;
+}
+
+#projects-section #projects-container .projects a {
+  text-decoration: none;
+  color: white;
 }
 
 #projects-section #projects-container .projects h5 {
   text-align: center;
+  color: white;
 }
 /*# sourceMappingURL=Projects.css.map */

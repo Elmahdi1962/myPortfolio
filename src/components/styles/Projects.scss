@@ -10,16 +10,28 @@
     margin: auto;
     background-color: #625b6b;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    align-content: flex-start;
+    padding-top: 10px;
+
     .projects {
       display: flex;
       flex-direction: column;
       width: 200px;
       margin: auto;
       margin-top: 10px;
-      height: 250px;
+      margin-bottom: 10px;
+      height: 230px;
+      background-color: #7a7483;
+      a {
+        text-decoration: none;
+        color: white;
+      }
       h5 {
         text-align: center;
+        color: white;
       }
     }
   }
