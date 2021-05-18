@@ -10,7 +10,7 @@ function Projects() {
                 {projects.map(project=>{
                     return(
                         <div className="projects" key={project.title}>
-                            <img src={project.imgUrl}  />
+                            <img src="src\components\images\255cloc.png" alt="displayed" />
                             <h5><a href={project.link} target="_blank">{project.title}</a></h5>
                         </div>
                     )

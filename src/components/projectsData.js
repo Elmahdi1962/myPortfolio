@@ -1,22 +1,47 @@
 export const projects = [
     {
         "title":"25 + 5 Clock",
-        "imgUrl":"https://raw.githubusercontent.com/Elmahdi1962/myPortfolio/master/src/Capture.PNG?token=ARYJOW6DNQBKYKWVKMDJ37LAULDEG",
+        "imgUrl":"http://localhost:3000/src/components/images/255cloc.png",
         "link":"https://codepen.io/elmahdi1962/pen/poRLjRg"
     },
     {
-        "title":"test1",
+        "title":"Javascript Calculator",
         "imgUrl":"#",
-        "link":"#"
+        "link":"https://codepen.io/elmahdi1962/pen/VwPePvv"
     },
     {
-        "title":"test2",
+        "title":"Drum Machine",
         "imgUrl":"#",
-        "link":"#"
+        "link":"https://codepen.io/elmahdi1962/pen/PobMYOV"
     },
     {
-        "title":"test3",
+        "title":"Simple React Markdown Previewer",
         "imgUrl":"#",
-        "link":"#"
+        "link":"https://codepen.io/elmahdi1962/pen/KKNLoNy"
+    },
+    {
+        "title":"Random Quote Machine",
+        "imgUrl":"#",
+        "link":"https://codepen.io/elmahdi1962/pen/eYBbmGV"
+    },
+    {
+        "title":"Technical Documentation Page",
+        "imgUrl":"#",
+        "link":"https://codepen.io/elmahdi1962/pen/WNGraLJ"
+    },
+    {
+        "title":"Product Landing Page",
+        "imgUrl":"#",
+        "link":"https://codepen.io/elmahdi1962/pen/xxEbJvQ"
+    },
+    {
+        "title":"Survey Form",
+        "imgUrl":"#",
+        "link":"https://codepen.io/elmahdi1962/pen/vYXBbNj"
+    },
+    {
+        "title":"Responsive web design project #1",
+        "imgUrl":"#",
+        "link":"https://codepen.io/elmahdi1962/pen/OJRLRNz"
     }
 ];

@@ -23,15 +23,16 @@
       margin: auto;
       margin-top: 10px;
       margin-bottom: 10px;
-      height: 230px;
+      height: 240px;
       background-color: #7a7483;
       justify-content: space-evenly;
+      object-fit: scale-down;
       a {
         text-decoration: none;
         color: white;
       }
       h5 {
-        margin-top: 5px;
+        margin: 5px 0;
         text-align: center;
         color: white;
       }
