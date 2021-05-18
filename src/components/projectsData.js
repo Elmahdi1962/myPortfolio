@@ -1,7 +1,7 @@
 export const projects = [
     {
         "title":"25 + 5 Clock",
-        "imgUrl":"http://localhost:3000/src/components/images/255cloc.png",
+        "imgUrl":"./images/clock.PNG",
         "link":"https://codepen.io/elmahdi1962/pen/poRLjRg"
     },
     {
