@@ -7,9 +7,9 @@
           flex: 0 0 auto;
 }
 
-#skills-section div {
-  width: 644px;
-  height: 500px;
+#skills-section #skills-container {
+  width: 640px;
+  height: 100%;
   margin: auto;
   background-color: white;
 }
