@@ -7,11 +7,40 @@ $font: "Montserrat Alternates", sans-serif;
   font-family: $font;
   flex: 0 0 auto;
   color: #c5fcef;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   h1,
   h2 {
     padding: 5px 0;
     width: 644px;
-    margin: auto;
   }
+  button {
+    margin: 50px auto;
+    width: 100px;
+    border: none;
+    border-radius: 0px;
+    background-color: rgb(230, 212, 212);
+    padding: 2px 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  article {
+    width: 670px;
+    line-height: 180%;
+    letter-spacing: 1px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #797879 #252625;
+    background: #625b6b;
+    padding: 10px;
+  }
+}
+::-webkit-scrollbar {
+  width: 3px;
+  background: #252625;
+}
+::-webkit-scrollbar-thumb {
+  background: #797879;
+  padding: 1px;
 }

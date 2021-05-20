@@ -10,7 +10,8 @@
 
 #projects-section #projects-container {
   scrollbar-width: thin;
-  width: 640px;
+  scrollbar-color: #797879 #252625;
+  width: 680px;
   height: 100%;
   margin: auto;
   background-color: #625b6b;

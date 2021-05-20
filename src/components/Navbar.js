@@ -9,7 +9,6 @@ function Navbar() {
                 <ul id="nav-ul">
                     <li><a href="#home-section">Home</a></li>
                     <li><a href="#projects-section">Projects</a></li>
-                    <li><a href="#skills-section">Skills</a></li>
                     <li><a href="#">Resume</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>

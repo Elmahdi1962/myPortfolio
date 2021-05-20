@@ -14,7 +14,7 @@ footer {
           align-items: center;
 }
 
-svg {
+#footer-svg {
   height: 10px;
   padding-right: 5px;
 }
