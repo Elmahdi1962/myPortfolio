@@ -17,23 +17,36 @@ $font: "Montserrat Alternates", sans-serif;
   }
   button {
     margin: 50px auto;
-    width: 100px;
+    width: auto;
     border: none;
     border-radius: 0px;
-    background-color: rgb(230, 212, 212);
-    padding: 2px 0;
-    font-size: 1rem;
+    background-color: rgb(238, 232, 232);
+    padding: 2px 2px;
+    font-size: 0.9rem;
     font-weight: bold;
   }
   article {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    color: transparent;
+    transition: all 1s, color 0.5s;
+  }
+  button:focus + article {
     width: 670px;
+    height: 500px;
     line-height: 180%;
     letter-spacing: 1px;
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: #797879 #252625;
     background: #625b6b;
+    color: white;
     padding: 10px;
+  }
+  button:focus {
+    background-color: #252625;
+    color: rgb(238, 232, 232);
   }
 }
 ::-webkit-scrollbar {

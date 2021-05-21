@@ -28,24 +28,40 @@
 
 #home-section button {
   margin: 50px auto;
-  width: 100px;
+  width: auto;
   border: none;
   border-radius: 0px;
-  background-color: #e6d4d4;
-  padding: 2px 0;
-  font-size: 1rem;
+  background-color: #eee8e8;
+  padding: 2px 2px;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
 #home-section article {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  color: transparent;
+  -webkit-transition: all 1s, color 0.5s;
+  transition: all 1s, color 0.5s;
+}
+
+#home-section button:focus + article {
   width: 670px;
+  height: 500px;
   line-height: 180%;
   letter-spacing: 1px;
   overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: #797879 #252625;
   background: #625b6b;
+  color: white;
   padding: 10px;
+}
+
+#home-section button:focus {
+  background-color: #252625;
+  color: #eee8e8;
 }
 
 ::-webkit-scrollbar {

@@ -7,7 +7,7 @@ function Main() {
             <h1>Hi,</h1>
             <h2>My Name is Elmahdi,</h2>
             <h2>And I'm a Front-End Web Developer.</h2>
-            <button>My story</button>
+            <button>Read My story</button>
             <article>
                 Well, I discovered programming in 2016 from the curiosity of how video games
                 are made, so I wanted to be a game developer, I started from there learning
