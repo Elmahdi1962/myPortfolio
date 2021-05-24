@@ -24,15 +24,19 @@ $font: "Montserrat Alternates", sans-serif;
     padding: 2px 2px;
     font-size: 0.9rem;
     font-weight: bold;
+    transition: all 1s;
   }
   article {
-    width: 0;
-    height: 0;
+    background: #625b6b;
+    width: 10px;
+    height: 10px;
     overflow: hidden;
     color: transparent;
-    transition: all 5s, color 0.5s;
+    visibility: hidden;
+    transition: all 1s, color 0.5s ease 0ms;
   }
   button:focus + article {
+    visibility: visible;
     width: 670px;
     height: 500px;
     line-height: 180%;
@@ -43,7 +47,7 @@ $font: "Montserrat Alternates", sans-serif;
     background: #625b6b;
     color: white;
     padding: 10px;
-    transition: all 1s, color 0.8s;
+    transition: all 1.5s, color 0.85s ease-out 500ms;
   }
   button:focus {
     background-color: #252625;

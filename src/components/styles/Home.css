@@ -35,18 +35,23 @@
   padding: 2px 2px;
   font-size: 0.9rem;
   font-weight: bold;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 #home-section article {
-  width: 0;
-  height: 0;
+  background: #625b6b;
+  width: 10px;
+  height: 10px;
   overflow: hidden;
   color: transparent;
-  -webkit-transition: all 1s, color 0.5s;
-  transition: all 1s, color 0.5s;
+  visibility: hidden;
+  -webkit-transition: all 1.5s, color 1.5s ease 0ms;
+  transition: all 1.5s, color 1.5s ease 0ms;
 }
 
 #home-section button:focus + article {
+  visibility: visible;
   width: 670px;
   height: 500px;
   line-height: 180%;
@@ -57,6 +62,8 @@
   background: #625b6b;
   color: white;
   padding: 10px;
+  -webkit-transition: all 1.5s, color 0.85s ease-out 500ms;
+  transition: all 1.5s, color 0.85s ease-out 500ms;
 }
 
 #home-section button:focus {

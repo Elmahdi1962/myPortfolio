@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Home.css';
 
-function Main() {
+function Home() {
     return (
         <section id="home-section">
             <h1>Hi,</h1>
@@ -28,4 +28,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Home;
