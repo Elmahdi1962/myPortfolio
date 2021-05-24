@@ -4,28 +4,47 @@ $font: "Source Code Pro", monospace;
 header {
   width: 100%;
   height: 30px;
+  margin: auto;
   background-color: #524b5c;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-
+#nav-container {
+  width: 680px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+}
 #logo {
+  vertical-align: top;
+  display: inline-block;
+  width: auto;
   font-size: 30px;
   height: 100%;
   line-height: 90%;
   color: #837c8e;
-  padding: 0 30px;
+  padding-right: 30px;
   cursor: pointer;
 }
 #nav-ul {
   text-decoration: none;
   list-style: none;
+  height: 100%;
   li {
-    display: inline;
+    display: inline-block;
     padding: 0 50px;
+    height: 100%;
     a {
+      padding-top: 5px;
+      text-align: center;
+      height: 100%;
       font-size: 16px;
       font-family: $font;
       color: white;

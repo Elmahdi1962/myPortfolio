@@ -46,8 +46,8 @@
   overflow: hidden;
   color: transparent;
   visibility: hidden;
-  -webkit-transition: all 1.5s, color 1.5s ease 0ms;
-  transition: all 1.5s, color 1.5s ease 0ms;
+  -webkit-transition: all 1s, color 0.5s ease 0ms;
+  transition: all 1s, color 0.5s ease 0ms;
 }
 
 #home-section button:focus + article {
