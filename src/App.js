@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main id="main">
         <Home />
         <Projects />
       </main>

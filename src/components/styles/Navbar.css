@@ -2,40 +2,65 @@
 header {
   width: 100%;
   height: 30px;
-  margin: auto;
   background-color: #524b5c;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 #nav-container {
   width: 680px;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #container {
   display: inline-block;
+  position: relative;
+  width: 600px;
+  height: 100%;
+}
+
+#container #resume-button,
+#container #contact-button {
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  font-weight: 400;
+  background-color: transparent;
   width: auto;
   height: 100%;
+  border: none;
+  border-radius: 0px;
+}
+
+#container #resume-popup {
+  position: absolute;
+  background-color: turquoise;
+  width: 150px;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+  color: transparent;
+  overflow: hidden;
+  top: 30px;
+  right: 25%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 #logo {
   vertical-align: top;
   display: inline-block;
-  width: auto;
+  width: 80px;
   font-size: 30px;
   height: 100%;
   line-height: 90%;
@@ -52,8 +77,9 @@ header {
 
 #nav-ul li {
   display: inline-block;
-  padding: 0 50px;
+  text-align: center;
   height: 100%;
+  width: 25%;
 }
 
 #nav-ul li a {
@@ -79,6 +105,20 @@ header {
 }
 
 #nav-ul li a:hover::after {
+  width: 100%;
+}
+
+#resume-button::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #00c9a5;
+  -webkit-transition: width 0.3s ease-out !important;
+  transition: width 0.3s ease-out !important;
+}
+
+#resume-button:hover::after {
   width: 100%;
 }
 /*# sourceMappingURL=navbar.css.map */
