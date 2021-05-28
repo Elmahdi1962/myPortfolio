@@ -35,9 +35,9 @@ header {
   }
   #resume-popup {
     position: absolute;
-    background-color: turquoise;
+    background-color: rgb(128, 128, 128);
     width: 150px;
-    height: 0;
+    height: 0px;
     padding: 0;
     margin: 0;
     visibility: hidden;
@@ -45,7 +45,16 @@ header {
     overflow: hidden;
     top: 30px;
     right: 25%;
-    transition: all 0.2s;
+    transition: all 0.3s;
+    border: 2px solid rgb(255, 255, 255);
+    border-top: none;
+    p {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
   }
 }
 

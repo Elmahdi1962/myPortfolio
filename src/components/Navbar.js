@@ -45,12 +45,12 @@ function Navbar() {
 function resumeClickHandler(e){
     if(document.getElementById("resume-button").contains(e.target)){
 
-        document.getElementById("resume-popup").style.cssText="height: 100px; width: 200px; visibility: visible; color: black";
+        document.getElementById("resume-popup").style.cssText="height: 50px; visibility: visible; color: black";
 
     }
     else{
 
-        document.getElementById("resume-popup").style.cssText="height: 0px; width: 200px; visibility: visible; color: transparent";
+        document.getElementById("resume-popup").style.cssText="height: 0px; visibility: visible; color: transparent";
 
     }
 
