@@ -48,7 +48,9 @@ header {
   height: 0px;
   padding: 0;
   margin: 0;
-  visibility: hidden;
+  font: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 15px;
   color: transparent;
   overflow: hidden;
   top: 30px;
@@ -118,7 +120,7 @@ header {
   width: 100%;
 }
 
-#resume-button::after {
+#contact-button::after {
   content: "";
   display: block;
   width: 0;
@@ -128,7 +130,7 @@ header {
   transition: width 0.3s ease-out !important;
 }
 
-#resume-button:hover::after {
+#contact-button:hover::after {
   width: 100%;
 }
 /*# sourceMappingURL=navbar.css.map */
