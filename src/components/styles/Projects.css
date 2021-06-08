@@ -42,7 +42,7 @@
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 240px;
+  height: 200px;
   background-color: #7a7483;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -56,14 +56,25 @@
   color: white;
 }
 
+#projects-section #projects-container .projects a:hover img {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
 #projects-section #projects-container .projects h5 {
   margin: 5px 0;
   text-align: center;
   color: white;
 }
 
+#projects-section #projects-container .projects h5:hover {
+  color: #6388f5;
+}
+
 #projects-section #projects-container .projects img {
   display: block;
   width: 200px;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
 }
 /*# sourceMappingURL=Projects.css.map */

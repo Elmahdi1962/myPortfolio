@@ -25,22 +25,31 @@
       margin: auto;
       margin-top: 10px;
       margin-bottom: 10px;
-      height: 240px;
+      height: 200px;
       background-color: #7a7483;
       justify-content: space-evenly;
       object-fit: scale-down;
       a {
         text-decoration: none;
         color: white;
+        &:hover {
+          img {
+            filter: brightness(1);
+          }
+        }
       }
       h5 {
         margin: 5px 0;
         text-align: center;
         color: white;
+        &:hover {
+          color: rgb(99, 136, 245);
+        }
       }
       img {
         display: block;
         width: 200px;
+        filter: brightness(0.9);
       }
     }
   }

@@ -16,7 +16,10 @@ function Navbar() {
         return () => {
 
             
-            document.removeEventListener("click",resumeClickHandler);
+            document.removeEventListener("click",(e) => {
+                resumeClickHandler(e);
+                contactClickHandler(e);
+            });
 
         }
         
@@ -40,13 +43,13 @@ function Navbar() {
     
             document.getElementById("resume-popup").style.cssText="height: 50px; color: black";
             resumeOpen= true;
-            console.log("resumeopen",resumeOpen);
+            
         }
         else{
     
             document.getElementById("resume-popup").style.cssText="height: 0px; color: transparent";
             resumeOpen= false;
-            console.log("resumeopen",resumeOpen);
+            
         }
     
         
@@ -55,20 +58,20 @@ function Navbar() {
 
     function contactClickHandler(e){
         if(document.getElementById("contact-popup").contains(e.target)){
-            console.log("inside poup contact");
+            
          
         }else if(document.getElementById("contact-li").contains(e.target) && !contactOpen){
             
             document.getElementById("contact-popup").style.cssText="height: 250px; width: 300px";
             contactOpen= true;
-            console.log("contactopen",contactOpen);
+            
             
         }
         else{
     
             document.getElementById("contact-popup").style.cssText="height: 30px; width: 0px; transition: height 0.5s, width 0.5s 500ms;";
             contactOpen= false;
-            console.log("contactopen",contactOpen);
+            
         }
     
         
