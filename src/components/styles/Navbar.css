@@ -50,6 +50,7 @@ header {
   width: auto;
   height: 100%;
   border: none;
+  cursor: pointer;
   border-radius: 0px;
 }
 
@@ -145,7 +146,7 @@ header {
   line-height: 90%;
   color: #837c8e;
   padding-right: 30px;
-  cursor: pointer;
+  cursor: default;
 }
 
 #nav-ul {
