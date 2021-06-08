@@ -10,7 +10,7 @@ function Projects() {
                 {projects.map(project=>{
                     return(
                         <div className="projects" key={project.title}>
-                            <img src={project.imgUrl} alt="not displayed" />
+                            <img src={process.env.PUBLIC_URL + project.imgUrl} alt="not displayed" />
                             <h5><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a></h5>
                         </div>
                     )
