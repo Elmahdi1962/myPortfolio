@@ -12,6 +12,12 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: default;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 12px;
 }
 
 #footer-svg {

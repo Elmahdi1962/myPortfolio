@@ -6,6 +6,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: default;
+  p {
+    font-weight: bold;
+    font-size: 12px;
+  }
 }
 #footer-svg {
   height: 10px;

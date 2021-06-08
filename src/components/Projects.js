@@ -11,7 +11,7 @@ function Projects() {
                     return(
                         <div className="projects" key={project.title}>
                             <a href={project.link} target="_blank" rel="noreferrer">
-                                <img src={process.env.PUBLIC_URL + project.imgUrl} alt="not displayed" />
+                                <img src={process.env.PUBLIC_URL + project.imgUrl} alt={project.alt} />
                                 <h5>{project.title}</h5>
                             </a>
                         </div>
